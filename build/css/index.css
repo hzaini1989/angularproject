@@ -1,0 +1,115 @@
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.d-ib {
+  display: inline-block;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-c {
+  text-align: center;
+}
+.ta-r {
+  text-align: right;
+}
+.bg-w {
+  background: #fff;
+}
+.c-w {
+  color: #fff;
+}
+.p-a {
+  position: absolute;
+}
+.p-r {
+  position: relative;
+}
+.p-f {
+  position: fixed;
+}
+.head {
+  background: #12d5b5;
+  height: .8rem;
+  line-height: .8rem;
+}
+.head .text {
+  color: #fff;
+}
+.head .custom {
+  background: #feae11;
+  border: 0;
+  color: #fff;
+  margin-right: .2rem;
+  margin-top: .15rem;
+}
+.head .back-btn {
+  font-size: .2rem;
+  width: 1rem;
+  left: .2rem;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  height: .8rem;
+  left: 0;
+  right: 0;
+  line-height: .8rem;
+  border-top: 1px solid #d4d4d4;
+}
+.foot li {
+  width: 33%;
+  float: left;
+}
+.foot li.select {
+  background: #dbf9f4;
+  color: #01c2a3;
+}
+.position-list {
+  padding: .14rem .06rem;
+}
+.position-list .logo {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .13rem;
+}
+.position-list .item {
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  padding: .2rem 0;
+}
+html,
+body,
+div,
+p,
+h2,
+h3,
+h1,
+span,
+b,
+ul,
+li,
+dl,
+dt,
+dd,
+a,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: .16rem;
+}
+body {
+  background: #eee;
+}

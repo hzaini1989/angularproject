@@ -1,0 +1,20 @@
+<ul class="position-list">
+    <!--<li class="item">
+        <img src="" alt="" class="logo f-l">
+        <h3 class="title">销售</h3>
+        <p class="text">
+            众信旅游（互联网）北京<br/>
+            2017
+        </p>
+    </li>-->
+
+    <li ui-sref="position({id:item.id})" class="item" ng-repeat="item in data">
+        <img  ng-src="{{item.imgSrc}}" alt="" class="logo">
+        <h3 class="title" ng-bind="item.name"></h3>
+        <p class="text" ng-bind="item.companyName+'['+item.city+']'+' '+item.industry">
+
+        </p>
+        <p class="text" ng-bind="item.time"></p>
+    </li>
+
+</ul>

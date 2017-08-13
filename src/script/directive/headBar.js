@@ -5,7 +5,7 @@ angular.module('app').directive('appHeadBar',[function(){
         replace:true,
         templateUrl:'view/template/headBar.html',
         scope:{
-            text:'='
+            text:'@'
         },
         link:function(scope,element,attr){
             scope.back = function(){
